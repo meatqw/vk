@@ -1,1 +1,8 @@
-TOKEN = 'vk1.a.AbX9tGjzaXLhWhPc22j-duDQSerPehEIfoQutwAybsDd5MnHSIb5myG5sPHdIHaBpPbO-9qfuinuL5M_WVvOom5O5tOfqqB9O15wRexs8gpoRzA7Nz_PHkUrcuz1f46-p5VQPJZXHSHzKmPHRA0sEBPQRwweSDAb84UsCB5gcXtmTH-DqbIRwB_oKUlJVoO8'
+"""
+https://oauth.vk.com/authorize?client_id=8225378&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends&response_type=token&v=5.131
+"""
+
+with open('settings.txt', 'r') as file:
+    data = file.read().split('\n')
+    TOKEN = data[0].split('=')[1].strip()
+    SLEEP = data[1].split('=')[1].strip()
