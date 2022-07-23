@@ -4,7 +4,7 @@ import time
 import math
 from progress import progressBar
 from datetime import datetime
-from csv_write import write
+from xlsx_write import write
 
 
 def get_group_info(group_id):
@@ -104,8 +104,10 @@ if work_status == True:
         write(data, id_group)
         
         print(f'File "{id_group}" saved')
-        
+
     except Exception as e:
         print('Error. Get members')
         print('Error:')
         print(e)
+
+input('Press any ket to exit')
