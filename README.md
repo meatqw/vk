@@ -13,13 +13,13 @@
 5. После создания будет открыта страница приложения елси нет то нудно открыть и из адресной строки скопировать id пложения
  (пример того как выглядит строка https://vk.com/editapp?id=8225378 И ВОТ ТУТ НУЖЕН ТОЛЬКО ID)
 6. Генерируем ключ (Заменить YUOR_ID на id приложения и перейти по этой ссылке
-https://oauth.vk.com/authorize?client_id=8225378&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends&response_type=token&v=5.131
+https://oauth.vk.com/authorize?client_id=82278&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends&response_type=token&v=5.131
 
 7. После этовы вы получите ссылку в адресной строке с ключем
-ВОТ ТАКУЮ https://oauth.vk.com/blank.html#access_token=vk1.a.dk1yozyouW1o38lIz5xip0FWqM7IJNZW-yGXccS9VpSQ3pR9yUoqChaHXrisdVO03__jFgPLNbvjQCGLDzvqOa4DgPXrzGfRnOMBr7ZZYgXHm6sa6R3ITPp3DJ0IpX8w0ZQjCKB4gW1W1FY1npYDs_S3wWPR0Wf4EOFHvV5AwN0zcnOWu0RreBcat0U1cyzq-Vr&expires_in=86400&user_id=740976437
+ВОТ ТАКУЮ https://oauth.vk.com/blank.html#access_token=vk1.a.dk1yozyouW1o38lIz5xip0FWqM7IJNZW-yGXccS9VpSQ3pR9yUoqChaHXrisdVO03__jFgPLNbvjQCGLDzvqOa4DgPXrzGfOMBr7ZZYgXHm6sa6R3ITPp3DJ0IpX8w0ZQjCKB4gW1W1FY1npYDs_S3wWPR0Wf4EOFHvV5AwN0zcnOWu0RreBcat0U1cyzq-Vr&expires_in=86400&user_id=740976437
 Копируем отсюда access_token(весь текст после "access_token=" и до "&expires_in")
 
-И вот этот токен(ЭТО просто пример у вас будет ваш) vk1.a.dk1yozyouW1o38lIz5xip0FWqM7IJNZW24sad-yGXccS9VpSQ3pR9yUoqChaHXrisdVO03__jFgPLNbvjQCGLDzvqOa4DgPXrzGfRnOMBr7ZZYgXHm6s6R3ITPp3DJ0IpX8w0ZQjCKB4gWbFY1npYDs_S3wWPR0Wf4EOFHvV5AwN0zcnOWu0RreB5cat0U1cyzq-Vr
+И вот этот токен(ЭТО просто пример у вас будет ваш) vk1.a.dk1yozyouW1o38lIz5xip0FWqM7IJNZW24sad-yGXccS9VpSQ3pR9yUoqChaHXrisdVO03__jFgPLNbvjQCGLDzvqOa4DgPXrzGfOMBr7ZZYgXHm6R3ITPp3DJ0IpX8w0ZQjCKB4gWbFY1npYDs_S3wWPR0Wf4EOFHvV5AwN0zcnOWu0RreB5cat0U1cyzq-Vr
 Вставляем без settings.txt после "TOKEN=" без пробелов и знаков
 Все, токен получен
 
